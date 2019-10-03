@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+  .header {
+    background-image: url('../img/goal1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }  
+  .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(39, 29, 39, 0.363);
+   }
+   .description {
+    left: 55%;
+    position: absolute;
+    top: 65%;
+    transform: translate(-50%, -55%);
+    text-align: right;
+  }
+  .description h1 {
+    color: #ec6618;
+  }
+  .description p {
+    color: rgb(248, 244, 244);
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .description button {
+    border:1px solid #ec6618;
+    background:#3e3bbb;
+    border-radius: 0;
+    color:#fff;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }  
